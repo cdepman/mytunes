@@ -1,0 +1,14 @@
+body {
+  background-image: url("images/background.jpeg");
+  opacity: .7;
+}
+
+h1 {
+  color: black;
+}
+
+marquee {
+  width: 500px;
+  behavior: scroll;
+  direction: left;
+}
