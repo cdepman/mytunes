@@ -11,7 +11,10 @@ var SongQueue = Songs.extend({
       this.remove(this.at(0));
       this.at(0).play();
     });
-   }
+
+   },
+
+
 
    // dequeue: function(){
    //  )

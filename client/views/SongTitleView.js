@@ -5,7 +5,6 @@ var SongTitleView = Backbone.View.extend({
   template: _.template('<marquee> <%= artist %> - <%= title %></marquee>'),
   initialize: function() {
     // this.render();
-
   },
 
   render: function(model){
